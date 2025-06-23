@@ -1,6 +1,6 @@
 # DuetGen: Music Driven Two-Person Dance Generation via Hierarchical Masked Modeling
 
-<p align="center">
+<div align="center">
 Anindita Ghosh<sup>1,2,3</sup>*, Bing Zhou<sup>4</sup>, Rishabh Dabral<sup>2,3</sup>,Jian Wang<sup>4</sup>, <br>
 Vladislav Golyanik<sup>2,3</sup>, Christian Theobalt<sup>2,3</sup>,
 Philipp Slusallek<sup>1,3</sup>, Chuan Guo<sup>4</sup><br> <br> 
@@ -14,7 +14,7 @@ Philipp Slusallek<sup>1,3</sup>, Chuan Guo<sup>4</sup><br> <br>
 
 <em> accepted at SIGGRAPH 2025 conference track</em>
 
-</p>
+</div>
 
 <p align="center">
   <a href='https://arxiv.org/abs/your_paper_id'>
