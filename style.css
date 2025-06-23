@@ -1,0 +1,125 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: #fefefe;
+  color: #111;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+  padding: 2rem;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+h2 {
+  color: #333;
+  text-align: left;
+}
+
+.authors, .links, pre, footer {
+  text-align: center;
+}
+
+.teaser, .result-img {
+  display: block;
+  max-width: 100%;
+  margin: 2rem auto;
+}
+
+.links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #3366cc;
+  font-weight: bold;
+}
+
+video {
+  width: 100%;
+  max-width: 720px;
+  display: block;
+  margin: 2rem auto;
+}
+
+footer {
+  margin-top: 3rem;
+  font-size: 0.9em;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.logos-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 20px;
+}
+.logos-container img {
+  height: 50px;
+  margin: 10px 30px;
+}
+
+.results-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.result-vid {
+  width: calc(50% - 10px);
+  margin: 5px;
+}
+
+.caption {
+  text-align: center;
+  font-style: italic;
+  margin-top: -1.5rem;
+  margin-bottom: 0.1rem;
+  font-size: 0.9em;
+}
+
+.announcement {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.2em;
+  color: red;
+  font-weight: bold;
+}
+
+pre {
+  background-color: #f0f0f0;
+  padding: 5px;
+  border-radius: 5px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-family: monospace;
+  text-align: left;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
