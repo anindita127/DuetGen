@@ -19,27 +19,17 @@ Philipp Slusallek<sup>1,3</sup>, Chuan Guo<sup>4</sup><br> <br>
 *DuetGen generates synchronized two-person dance choreography from input music, featuring natural and close interactions between dancers.*
 
 
-<div align="center">
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://anindita127.github.io/DuetGen">
-        <img src="assets/thumbnail.png" width="100px" alt="Project Page"><br>
-        <strong>Project Page</strong>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://arxiv.org/abs/your_paper_id">
-        <img src="assets/pdf_icon.png" width="100px" alt="Paper"><br>
-        <strong>ArXiv</strong>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/anindita127/DuetGen_codebase">
-        <img src="assets/code_icon.png" width="100px" alt="Code"><br>
-        <strong>Code</strong>
-      </a>
-    </td>
-  </tr>
-</table>
+<div style="display: flex; justify-content: center; align-items: flex-start; gap: 20px; margin-top: 20px; margin-bottom: 20px;">
+  <a href="https://anindita127.github.io/DuetGen" style="text-decoration: none; color: inherit; text-align: center;">
+    <img src="assets/thumbnail.png" width="120px" alt="Project Page"><br>
+    <strong>Project Page</strong>
+  </a>
+  <a href="https://arxiv.org/abs/your_paper_id" style="text-decoration: none; color: inherit; text-align: center;">
+    <img src="assets/pdf_icon.png" width="120px" alt="Paper"><br>
+    <strong>ArXiv</strong>
+  </a>
+  <a href="https://github.com/anindita127/DuetGen_codebase" style="text-decoration: none; color: inherit; text-align: center;">
+    <img src="assets/code_icon.png" width="120px" alt="Code"><br>
+    <strong>Code</strong>
+  </a>
 </div>
