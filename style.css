@@ -145,3 +145,14 @@ pre {
 .authors a:hover {
   text-decoration: underline;
 }
+
+.contact a,
+footer a {
+  color: #111;
+  text-decoration: none;
+}
+
+.contact a:hover,
+footer a:hover {
+  text-decoration: underline;
+}
