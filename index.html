@@ -64,8 +64,16 @@
     </div>
 
     <h2>Approach</h2>
-    <img src="assets/inference_process.jpg" alt="Our model architecture" class="teaser">
-    <p class="caption"><b>Overview of our approach. </b>
+    <img src="assets/duetgen_training.jpg" alt="Our training architecture" class="teaser">
+    <p class="caption"><b>Training Framework. </b>
+     Left: Our hierarchical two-person motion VQ-VAE encodes a unified two-person motion sequence \(𝑥\) of length \(𝑁\)
+into two-scale discrete token sequences. Top-level tokens at a coarse temporal resolution \(𝑁/\eta_{𝑡𝑜𝑝} \) capture global semantics, and bottom-level tokens at
+finer temporal resolution \(𝑁/\eta_{𝑏𝑜𝑡}\) capture complementary low-level details. Right: We employ two transformers to model tokens of different granularity
+via masked modeling. The first-stage transformer (top-right) predicts the masked top-level tokens from music. Subsequently, the second-stage transformer
+(bottom-right) predicts the masked bottom-level tokens conditioned on both the music and the top-level token sequence.
+    </p>
+    <img src="assets/duetgen_inference.jpg" alt="Our inference pipeline" class="teaser">
+    <p class="caption"><b>Inference Pipeline. </b>
       Our first-stage transformer \(\theta_t\) iteratively fills an empty sequence of top-level tokens in \(L_{top}\) iterations based on input music. Then,
 the second-stage transformer \(\theta_b\) generates the complete sequence of bottom-level tokens in \(L_{bot}\) iterations, conditioned on both music and the generated
 top-level tokens \(\hat{t}_{top}\). We combine these token sequences and decode them into two-person dance motions via the VQ-VAE decoder \(D\). We then apply a
@@ -110,8 +118,7 @@ lightweight network to refine the root trajectories and produce the final output
     <pre>
         @InProceedings{ghosh2025duetgen,
             title={DuetGen: Music Driven Two-Person Dance Generation via Hierarchical Masked Modeling},
-            author={Ghosh, Anindita and Zhou, Bing and Dabral, Rishabh and Wang, Jian and Golyanik, Vladislav and 
-                    Theobalt, Christian and Slusallek, Philipp and Guo, Chuan},
+            author={Ghosh, Anindita and Zhou, Bing and Dabral, Rishabh and Wang, Jian and Golyanik, Vladislav and Theobalt, Christian and Slusallek, Philipp and Guo, Chuan},
             booktitle={ACM SIGGRAPH},
             year={2025}
         }
