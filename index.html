@@ -55,6 +55,13 @@
         We present DuetGen, a novel framework for generating interactive two-person dances from music. The key challenge of this task lies in the inherent complexities of two-person dance interactions, where the partners need to synchronize both with each other and with the music. Inspired by the recent advances in motion synthesis, we propose a two-stage solution: encoding two-person motions into discrete tokens and then generating these tokens from music. To effectively capture intricate interactions, we represent both dancers' motions as a unified whole to learn the necessary motion tokens, and adopt a coarse-to-fine learning strategy in both the stages. Our first stage utilizes a VQ-VAE that hierarchically separates high-level semantic features at a coarse temporal resolution from low-level details at a finer resolution, producing two discrete token sequences at different abstraction levels. Subsequently, in the second stage, two generative masked transformers learn to map music signals to these dance tokens: the first producing high-level semantic tokens, and the second, conditioned on music and these semantic tokens, producing the low-level tokens. We train both transformers to learn to predict randomly masked tokens within the sequence, enabling them to iteratively generate motion tokens by filling an empty token sequence during inference. Through the hierarchical masked modeling and dedicated interaction representation, DuetGen achieves the generation of synchronized and interactive two-person dances across various genres. Extensive experiments and user studies on a benchmark duet dance dataset demonstrate state-of-the-art performance of DuetGen in motion realism, music-dance alignment, and partner coordination.
         </div>
         
+    <h2> Supplementary Video  </h2>
+    <p class="announcement">🔊 The video contains audio.</p>
+    <div class="results-container">
+      <video controls autoplay loop muted class="full-width-video">
+      <source src="assets/supplementary_video_d.mp4" type="video/mp4">
+      </video>
+    </div>
 
     <h2>Approach</h2>
     <img src="assets/inference_process.jpg" alt="Our model architecture" class="teaser">
@@ -65,6 +72,7 @@ top-level tokens \(\hat{t}_{top}\). We combine these token sequences and decode 
 lightweight network to refine the root trajectories and produce the final outputs.
     </p>
     
+
 
     <h2>✨ Results ✨</h2>
     <p class="announcement">🔊 All videos contain audio.</p>

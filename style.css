@@ -95,6 +95,12 @@ footer {
   margin: 5px;
 }
 
+.full-width-video {
+  width: 100%;
+  max-width: none;
+  margin: 2rem 0;
+}
+
 .caption {
   text-align: center;
   font-style: italic;
