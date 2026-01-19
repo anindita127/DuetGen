@@ -19,7 +19,7 @@ Philipp Slusallek<sup>1,3</sup>, Chuan Guo<sup>4</sup><br> <br>
 <p align="center">
   <a href='https://arxiv.org/pdf/2506.18680'>
     <img src='https://img.shields.io/badge/Arxiv-Pdf-A42C25?style=flat&logo=arXiv&logoColor=white'></a>
-  <a href=''>
+  <a href='https://github.com/snap-research/duet-gen'>
     <img src='https://img.shields.io/badge/GitHub-Code-black?style=flat&logo=github&logoColor=white'></a>
   <a href='https://anindita127.github.io/DuetGen/'>
     <img src='https://img.shields.io/badge/Project-Page-green?style=flat&logo=Google%20chrome&logoColor=white'></a>
